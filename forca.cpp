@@ -5,14 +5,14 @@
 #include <fstream>
 #include <ctime>
 #include <cstdlib>
-#include "imprime_textos.cpp"
-#include "letra_existe.cpp"
-#include "nao_acertou.cpp"
-#include "nao_enforcou.cpp"
-#include "lendo_arquivos.cpp"
-#include "chute.cpp"
-#include "sorteia_palavra.cpp"
-#include "salva_arquivo.cpp"
+#include "imprime_textos.hpp"
+#include "letra_existe.hpp"
+#include "nao_acertou.hpp"
+#include "nao_enforcou.hpp"
+#include "lendo_arquivos.hpp"
+#include "chute.hpp"
+#include "sorteia_palavra.hpp"
+#include "salva_arquivo.hpp"
 using namespace std;
 
 string palavra_secreta; 

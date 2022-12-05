@@ -1,5 +1,5 @@
 #include <string>
-std::string palavra_secreta;
+extern std::string palavra_secreta;
 
 bool letra_existe(char chute){
     for(char letra : palavra_secreta){

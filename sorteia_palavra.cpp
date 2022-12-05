@@ -1,9 +1,9 @@
 #include <vector>
 #include <string>
-#include "lendo_arquivos.cpp"
+#include "lendo_arquivos.hpp"
 #include <ctime>
 
-std::string palavra_secreta; 
+extern std::string palavra_secreta; 
 
 void sorteia_palavra(){
     std::vector<std::string> palavras = le_arquivo();

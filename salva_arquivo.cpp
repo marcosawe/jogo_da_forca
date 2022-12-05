@@ -1,6 +1,5 @@
 #include <iostream>
-#include <string>
-#include <vector>
+#include "salva_arquivo.hpp"
 #include <fstream>
 void salva_arquivo(std::vector<std::string> nova_lista){
     std::ofstream arquivo;
